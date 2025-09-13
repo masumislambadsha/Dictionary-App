@@ -23,7 +23,7 @@ function getWordInfo(word) {
       result.classList.add('md:w-fit')
       // Build HTML dynamically
       let html = `
-        <div class="card bg-gray-200 p-4 mx-auto shadow-lg w-96">
+        <div class="card bg-gray-200 p-4 mx-auto shadow-lg md:w-96">
           <div class="card-body">
             <h2 class="font-bold text-2xl mb-3">${entry.word}</h2>
       `;
