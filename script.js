@@ -19,8 +19,8 @@ function getWordInfo(word) {
       }
 
       const entry = data[0];
-      result.classList.add('mx-auto')
-      result.classList.add('w-fit')
+      result.classList.add('md:mx-auto')
+      result.classList.add('md:w-fit')
       // Build HTML dynamically
       let html = `
         <div class="card bg-gray-200 p-4 mx-auto shadow-lg w-96">
